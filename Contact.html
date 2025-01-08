@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+
+  <div class ="background">
+    <img  class="back"  src="images/books.jpg" alt="books">
+
+  </div>
+  <header class="header">
+    <h1>Contact Me</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  
+    <form action="/submit-form" method="POST" style="text-align: left; margin-top: 50px;">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" required><br>
+
+      <label for="email">Your Email:</label><br>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" required></textarea><br>
+
+      <input type="submit" class="myButton" value="Submit">
+    </form>
+<hr>
+
+  <footer class="footer">
+    <p>&copy; 2025 My Portfolio</p>
+  </footer>
+</body>
+</html>
